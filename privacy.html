@@ -1,117 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — macapture</title>
-  <meta name="description" content="Privacy Policy for macapture." />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Macapture Privacy Policy</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f4f1ea;
+            --panel: #fffdf8;
+            --text: #1c1a18;
+            --muted: #5f5a53;
+            --line: #ddd4c8;
+            --accent: #0f6d5d;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background:
+                radial-gradient(circle at top left, #ffffff 0%, rgba(255, 255, 255, 0) 38%),
+                linear-gradient(180deg, #efe8dc 0%, var(--bg) 100%);
+            color: var(--text);
+        }
+
+        main {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 48px 20px 72px;
+        }
+
+        .card {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            padding: 32px;
+            box-shadow: 0 24px 60px rgba(28, 26, 24, 0.08);
+        }
+
+        h1,
+        h2 {
+            margin: 0 0 16px;
+            line-height: 1.1;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 5vw, 3.4rem);
+            letter-spacing: -0.04em;
+        }
+
+        h2 {
+            margin-top: 32px;
+            font-size: 1.15rem;
+            letter-spacing: -0.02em;
+        }
+
+        p,
+        li {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: var(--muted);
+        }
+
+        .lede {
+            font-size: 1.08rem;
+            color: var(--text);
+            max-width: 60ch;
+        }
+
+        .badge {
+            display: inline-block;
+            margin-bottom: 18px;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: rgba(15, 109, 93, 0.1);
+            color: var(--accent);
+            font-size: 0.82rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 12px 0 0;
+        }
+
+        .callout {
+            margin-top: 24px;
+            padding: 18px 20px;
+            border-left: 4px solid var(--accent);
+            background: rgba(15, 109, 93, 0.06);
+            border-radius: 14px;
+        }
+
+        .footer {
+            margin-top: 32px;
+            font-size: 0.92rem;
+            color: var(--muted);
+        }
+
+        @media (max-width: 640px) {
+            main {
+                padding: 24px 14px 40px;
+            }
+
+            .card {
+                padding: 22px;
+                border-radius: 18px;
+            }
+        }
+    </style>
 </head>
 <body>
+    <main>
+        <section class="card">
+            <div class="badge">Privacy Policy</div>
+            <h1>Macapture</h1>
+            <p class="lede">
+                Macapture does not collect, sell, rent, transmit, or share your personal data.
+                The app is designed to work locally on your Mac.
+            </p>
 
-  <!-- Header -->
-  <header>
-    <div class="header-inner">
-      <a class="logo" href="index.html">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-          <rect width="28" height="28" rx="7" fill="#0071e3"/>
-          <rect x="6" y="8" width="16" height="12" rx="2" stroke="#fff" stroke-width="1.8" fill="none"/>
-          <circle cx="14" cy="14" r="3" fill="#fff"/>
-          <line x1="6" y1="8" x2="10" y2="8" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
-        </svg>
-        macapture
-      </a>
-      <nav>
-        <a href="index.html#faq">FAQ</a>
-        <a href="index.html#contact">Contact</a>
-        <a href="privacy.html">Privacy</a>
-      </nav>
-    </div>
-  </header>
+            <h2>What Macapture does not collect</h2>
+            <ul>
+                <li>No account information</li>
+                <li>No names, email addresses, or contact information</li>
+                <li>No analytics or advertising identifiers</li>
+                <li>No location data</li>
+                <li>No usage tracking sent to any server</li>
+                <li>No screenshots, recordings, clipboard items, or annotations uploaded off your device</li>
+            </ul>
 
-  <main style="max-width:720px; margin:0 auto; padding:48px 24px 80px;">
+            <h2>How the app works</h2>
+            <p>
+                Macapture captures screenshots and screen recordings locally on your Mac. If you enable
+                optional features such as clipboard history, that information is processed and stored locally
+                on your device only. Macapture does not operate a cloud service and does not transmit user
+                content to the developer or to third parties.
+            </p>
 
-    <h1 style="font-size:38px; font-weight:700; margin-bottom:8px;">Privacy Policy</h1>
-    <p style="color:var(--text-secondary); margin-bottom:40px;">Last updated: March 2026</p>
+            <h2>Permissions</h2>
+            <p>
+                Macapture requests only the macOS permissions needed for features you use, such as Screen
+                Recording access for screenshots and video capture. These permissions are managed by macOS
+                and can be changed at any time in System Settings.
+            </p>
 
-    <div class="card" style="margin-bottom:24px;">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Overview</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7;">
-        macapture ("we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains what information macapture collects, how it is used, and your choices regarding that information.
-      </p>
-    </div>
+            <div class="callout">
+                <strong>Local-only design.</strong>
+                Screenshots, videos, history items, and settings stay on your Mac unless you explicitly move,
+                export, or share them yourself.
+            </div>
 
-    <div class="card" style="margin-bottom:24px;">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Information We Collect</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7; margin-bottom:12px;">
-        <strong style="color:var(--text);">macapture does not collect, transmit, or store any personal data or captured content.</strong> All screenshots and recordings are saved directly to your device and are never sent to our servers.
-      </p>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7;">
-        When you contact us through our support page, we receive only the information you voluntarily provide (such as your name, email address, and message). This information is used solely to respond to your support request and is not shared with third parties.
-      </p>
-    </div>
+            <h2>Third parties</h2>
+            <p>
+                Macapture does not include third-party advertising, third-party analytics, or external data
+                collection SDKs.
+            </p>
 
-    <div class="card" style="margin-bottom:24px;">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Permissions</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7; margin-bottom:12px;">
-        macapture requests the following macOS permissions:
-      </p>
-      <ul style="color:var(--text-secondary); font-size:15px; line-height:1.8; padding-left:20px;">
-        <li><strong style="color:var(--text);">Screen Recording</strong> — required to capture screenshots and screen recordings. Captured content stays on your device.</li>
-        <li><strong style="color:var(--text);">Microphone (optional)</strong> — used only when you explicitly choose to record audio. Audio is included only in the recording you save locally.</li>
-      </ul>
-    </div>
+            <h2>Changes</h2>
+            <p>
+                If the privacy behavior of Macapture changes in the future, this policy should be updated to
+                reflect those changes before release.
+            </p>
 
-    <div class="card" style="margin-bottom:24px;">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Analytics</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7;">
-        macapture does not use third-party analytics services or tracking libraries. We do not collect crash reports, usage statistics, or any telemetry data.
-      </p>
-    </div>
-
-    <div class="card" style="margin-bottom:24px;">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Third-Party Services</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7;">
-        macapture is distributed through the <strong>Mac App Store</strong>, which is operated by Apple Inc. Apple's privacy practices are governed by the <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple Privacy Policy</a>. We do not have access to any purchase or account information held by Apple.
-      </p>
-    </div>
-
-    <div class="card" style="margin-bottom:24px;">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Children's Privacy</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7;">
-        macapture does not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.
-      </p>
-    </div>
-
-    <div class="card" style="margin-bottom:24px;">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Changes to This Policy</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7;">
-        We may update this Privacy Policy from time to time. When we do, we will revise the "last updated" date at the top of this page. We encourage you to review this policy periodically.
-      </p>
-    </div>
-
-    <div class="card">
-      <h2 style="font-size:20px; font-weight:600; margin-bottom:12px;">Contact Us</h2>
-      <p style="color:var(--text-secondary); font-size:15px; line-height:1.7;">
-        If you have any questions about this Privacy Policy, please <a href="index.html#contact">contact us</a> through the support form.
-      </p>
-    </div>
-
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-links">
-      <a href="index.html">Support</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">Mac App Store</a>
-    </div>
-    <p>&copy; <span id="year"></span> macapture. All rights reserved.</p>
-  </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-
+            <p class="footer">Last updated: March 15, 2026</p>
+        </section>
+    </main>
 </body>
 </html>
